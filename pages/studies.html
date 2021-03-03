@@ -5,25 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
     <title>E-portfolio Flor</title>
 </head>
-<body class="bg bg-dark">
-    <header class="bg bg-dark">
-        <img style="height: 150px;width:100%;" src="../images/banner.jpeg">
-       <nav style="padding:0;" class="navbar navbar-dark bg-dark">
-        <div class="container-fluid" style="padding:0">
-                <a href="../index.html"><img style="margin-left:15px;height:40px"src="../images/home.png"  alt=""></a>
-               <a style= "width:19%;font-size: 2em;" class="btn btn-dark" href="../pages/aboutMe.html">Over mezelf</a> 
-               <a style= "width:19%; font-size: 2em;" class="btn btn-dark " href="../pages/studies.html">Studies</a>
-                <a style= "width:19%;font-size:2em;" class="btn btn-dark" href="../pages/projecten.html">Projecten</a>
-                <a style= "width:19%;font-size:2em;" class="btn btn-dark" href="../pages/ervaring.html">Werkervaring</a>
-                <a style= "width:19%;font-size:2em;" class="btn btn-dark" href="../pages/vrijeTijd.html">Vrije Tijd</a>
+<body >
+    <header>
+        <img  src="../images/banner.jpeg">
+       <nav  class="navbar navbar-dark bg-dark">
+        <div class="container-fluid" >
+                <a href="../index.html"><img src="../images/home.png"  alt=""></a>
+               <a class="nav-link" href="../pages/aboutMe.html">Over mezelf</a> 
+               <a class= "nav-link" href="../pages/studies.html">Studies</a>
+                <a class="nav-link" href="../pages/projecten.html">Projecten</a>
+                <a class="nav-link" href="../pages/ervaring.html">Werkervaring</a>
+                <a class="nav-link" href="../pages/vrijeTijd.html">Vrije Tijd</a>
         </div>
     </nav>
     </header>
-    <main class="container-fluid bg-dark text-white">
-        <div class="row align-items-start">
-            <div class="col">
+    <main class="container-fluid row">
+               <div class="card col">
                 <h2>Secundair</h2>
                 <p>Ik heb Latijn-Moderne talen gestudeerd aan het Sint-Jozefscollege in Aalst. Een vrij bekende school.
                      Niet enkel vanwege zijn uitstekende reputatie op vlak van kennis,
@@ -31,9 +31,10 @@
                      Ik heb er een bijzonder mooie tijd gehad en ben de docenten en school dankbaar voor hun vele lessen
                      en de kritische blik waarmee ze ons naar de wereld hebben leren kijken. 
                      </p>
-            </div>
-            <div class="col">
+               </div>
+               <div class="card col">
                 <h2>Hoger Onderwijs</h2>
+                <section >
                 <h3 class="h4">Professionele Bachelor in de Houttechnologie (2016-2019)</h3>
                 <p>
                     Dit is waarschijnlijk niet de eerste opleiding waaraan de meeste mensen denken als ze
@@ -47,21 +48,24 @@
                     interesseren. <br>
                     Na 3 jaar was ik hier afgestudeerd met een duidelijk idee. Ik was nog niet klaar met studeren, IT had me opnieuw in zijn macht gekregen en ik was klaar voor een nieuwe uitdaging.
                 </p>
-                <h3 class="h4">
-                    Professionele Bachelor in de Toegepaste Informatica (2019-2022)
-                </h3>
-                <p>
-                    Dat brengt ons bij dit nieuw avontuur. Een avontuur waar behoorlijk wat werk en tijd in kruipt, maar ik doe het met veel plezier.
-                    Groot was de ontgoocheling toen halverwege mijn 1e jaar de coronapandemie ongemeen hard toesloeg over heel de wereld. <br>
-                    Dit was uiteraard en zware streep door mijn rekening en het heeft me wat tijd gekost om me aan deze nieuwe manier van studeren aan te passen.
-                    Het eerste jaar heb ik ondertussen zonder kleerscheuren afgewerkt. Aan het 2e jaar zijn we momenteel bezig en dat verloopt momenteel ook vrij goed.
-                    Ik kan met zekerheid zeggen dat zelfstudie vanaf nu een van mijn sterkste skills is geworden! 
-                </p>
-            </div>
-        </div>
+            </section>
+                <section>
+                    <h3 class="h4">
+                        Professionele Bachelor in de Toegepaste Informatica (2019-2022)
+                    </h3>
+                    <p>
+                        Dat brengt ons bij dit nieuw avontuur. Een avontuur waar behoorlijk wat werk en tijd in kruipt, maar ik doe het met veel plezier.
+                        Groot was de ontgoocheling toen halverwege mijn 1e jaar de coronapandemie ongemeen hard toesloeg over heel de wereld. <br>
+                        Dit was uiteraard en zware streep door mijn rekening en het heeft me wat tijd gekost om me aan deze nieuwe manier van studeren aan te passen.
+                        Het eerste jaar heb ik ondertussen zonder kleerscheuren afgewerkt. Aan het 2e jaar zijn we momenteel bezig en dat verloopt momenteel ook vrij goed.
+                        Ik kan met zekerheid zeggen dat zelfstudie vanaf nu een van mijn sterkste skills is geworden! 
+                    </p>
+                </section>
+               </div>
+         
     </main>
-    <footer  style="text-align: center;" class="bg bg-dark">
-        <p class="text-white">&copy Flor Walravens 2021 </p>
+    <footer  >
+        <p>&copy Flor Walravens 2021 </p>
     </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
