@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  font-size: 1.5em;
+}
+
+body .nav-link {
+  border: 1px solid;
+}
+
+body .nav-link:hover {
+  background-color: gray;
+  -webkit-transition: 600ms;
+  transition: 600ms;
+}
+/*# sourceMappingURL=styles.css.map */

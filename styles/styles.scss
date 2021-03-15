@@ -1,1 +1,11 @@
-
+body{
+    font-size: 1.5em;
+    .nav-link{
+        
+        border: 1px solid;
+    }
+    .nav-link:hover{
+        background-color: gray;
+        transition: 600ms;
+    }
+}
