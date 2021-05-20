@@ -1,5 +1,6 @@
 body {
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 body header {
@@ -55,7 +56,6 @@ body header .navbar .container .navbar-nav .nav-item:hover {
 
 body main {
   clear: both;
-  padding-left: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

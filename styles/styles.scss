@@ -3,7 +3,7 @@ $lightcolor:#8583E1;
 
 body {
     max-width: 1440px;
-
+    margin: 0 auto;
     header {
         width: 100%;
         padding: 38px 0 0 40px;
@@ -50,7 +50,7 @@ body {
 
     main {
         clear: both;
-        padding-left: 40px;
+        
         display: flex;
         width: 100%;
 

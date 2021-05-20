@@ -46,21 +46,40 @@
                 <p><span class="label">Naam: </span>Flor Walravens</p>
                 <p><span class="label">Woonplaats: </span>Haaltert</p>
                 <p><span class="label">Geboortedatum: </span>25 juli 1995</p>
-              
+
             </div>
         </aside>
         <div class="main-content">
             <div class="main-content-header">
-                <h2 class="main-subtitle">Junior Developer</h2>
-                <h1 class="main-title">Flor Walravens</h1>
+                <h2 class="main-subtitle">Mij bereiken?</h2>
+                <h1 class="main-title">Contact</h1>
             </div>
             <div class="main-content-body">
-                <p class="about">Als starter heb ik enorm veel zin en energie om nieuwe dingen te ontdekken. Met een
-                    Bachelor in Houttechnologie en Toegepaste Informatica op zak
-                    verbaast het waarschijnlijk niet dat mijn interesse vooral in het industriële ligt.
-                    Met heel wat ambities, en het besef dat het leerpad nooit eindigt, sta ik klaar voor
-                    de vele uitdagingen die op mijn pad zullen komen.
-                </p>
+                <form method="POST" class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div>
+                                <label for="Naam">Naam</label><br>
+                                <input name="Naam" required id="Naam" type="text">
+                            </div>
+                            <div>
+                                <label for="Email">E-mail</label><br>
+                                <input name="Email" required id="Email" type="email">
+                            </div>
+                            <div>
+                                <label for="Subject">Onderwerp</label><br>
+                                <input name="Subject" required id="Subject" type="text">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div>
+                                <label for="Message">Bericht</label><br>
+                                <textarea name="Message" id="Message" style="width:100%;height:165px;"></textarea>
+                            </div>
+                            <button type="button" onclick="sendMail()">Verzenden</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </main>
@@ -71,5 +90,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
 </script>
+<script src="/scripts/site.js"></script>
 
 </html>
