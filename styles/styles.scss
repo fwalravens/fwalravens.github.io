@@ -2,7 +2,7 @@ $darkcolor:#100F3A;
 $lightcolor:#8583E1;
 body
 {
-    max-width:1440px;
+    
     header
     {
         width:100%;
@@ -92,11 +92,32 @@ body
             .main-title{
                 font-size:3.5em;
             }
+            .educationTitle{
+                text-align: left;
+                padding-left:200px;
+                font-size: 3em;
+                font-weight: bold;
+            }
         }
         .about{
             font-size:1.2em;
            padding:50px 100px;
             text-align: justify;
+        }
+        article{
+            display:flex;
+            flex-direction: row;
+            p{
+                font-size: 1.5em;
+            }
+            .article-info{
+                padding:0 20px;
+                p
+                {
+                    text-align: justify;
+                    font-size: 1.2em;
+                }
+            }
         }
     }
 }
