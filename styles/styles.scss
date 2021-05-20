@@ -1,122 +1,174 @@
 $darkcolor:#100F3A;
 $lightcolor:#8583E1;
-body
-{
-    width:100%;
-    header
-    {
-        width:100%;
-        padding:38px 0 0 40px;
-        .navbar
-        {
-            height:59px;
-          .container
-          {
-            width:100%;
-            padding:0;
-            margin-right:0;
-            .navbar-brand
-            {
-                font-size: 2em;
-                color:$darkcolor;
-                border:none;
-                width:20%;
-            }
-            .navbar-nav{
-                width:70%;
-                display:flex;
-                flex-direction: row;
-                justify-content: flex-end;
-                .nav-item{
-                    margin-left: 1px;
-                    background-color: $darkcolor;
-                    padding:0px 24px;
-                    .nav-link{
-                        color:white;
-                        font-size:1.2em;
+
+body {
+    max-width: 1440px;
+
+    header {
+        width: 100%;
+        padding: 38px 0 0 40px;
+
+        .navbar {
+            height: 59px;
+
+            .container {
+                width: 100%;
+                padding: 0;
+                margin-right: 0;
+
+                .navbar-brand {
+                    font-size: 2em;
+                    color: $darkcolor;
+                    border: none;
+                    width: 20%;
+                }
+
+                .navbar-nav {
+                    width: 70%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+
+                    .nav-item {
+                        margin-left: 1px;
+                        background-color: $darkcolor;
+                        padding: 0px 24px;
+
+                        .nav-link {
+                            color: white;
+                            font-size: 1.2em;
+                        }
+                    }
+
+                    .nav-item:hover {
+                        background-color: $lightcolor;
                     }
                 }
-                .nav-item:hover{
-                    background-color:$lightcolor;
-                }
             }
-          }
         }
     }
-    main{
-        clear:both;
-        padding-left:40px;
-        display:flex;
-        width:100%; 
-        aside{
+
+    main {
+        clear: both;
+        padding-left: 40px;
+        display: flex;
+        width: 100%;
+
+        aside {
             width: 30%;
-            height:600px;
-            display:flex;
+            height: 600px;
+            display: flex;
             flex-direction: column;
-            .background-image{
-                width:100%;
-                height:400px;
+
+            .background-image {
+                width: 100%;
+                height: 400px;
                 background: $darkcolor;
                 text-align: center;
-                img{
-                    height:400px;
+
+                img {
+                    height: 400px;
                 }
             }
-            .general-info{
-               flex-direction: row; 
-                padding:20px;
-                width:100%;
-                min-height:200px;
-                background-color:$darkcolor;
-                color:white;
-                overflow:auto;
-                h1{
-                    font-size:2em;
-                    margin-bottom:20px;
+
+            .general-info {
+                flex-direction: row;
+                padding: 20px;
+                width: 100%;
+                min-height: 200px;
+                background-color: $darkcolor;
+                color: white;
+                overflow: hidden;
+
+                h1 {
+                    font-size: 2em;
+                    margin-bottom: 20px;
                 }
-                .label{
-                    color:gray;
+
+                .label {
+                    color: gray;
                 }
             }
         }
-        .main-content{
-            width:70%;
-            text-align:center;
+
+        .main-content {
+            width: 70%;
+            text-align: center;
             background-color: #E3E0F3;
-            font-size:1.2em;
-            .main-subtitle{
-                font-size:2.5em;
-                margin-left:-50px;
-                margin-top:100px;
-            }
-            .main-title{
-                font-size:3.5em;
-            }
-            .educationTitle{
-                text-align: left;
-                padding-left:200px;
-                font-size: 3em;
-                font-weight: bold;
-            }
-        }
-        .about{
-            font-size:1.2em;
-           padding:50px 100px;
-            text-align: justify;
-        }
-        article{
-            display:flex;
-            flex-direction: row;
-            p{
-                font-size: 1.5em;
-            }
-            .article-info{
-                padding:0 20px;
-                p
-                {
-                    text-align: justify;
-                    font-size: 1.2em;
+            font-size: 1.2em;
+            max-height: 600px;
+
+            .main-content-header {
+                padding-bottom: 20px;
+
+                .main-subtitle {
+                    font-size: 2.5em;
+                    margin-left: -50px;
+                    margin-top: 100px;
                 }
+
+                .main-title {
+                    font-size: 3.5em;
+
+                }
+            }
+
+            .main-content-body {
+                padding: 0 10px;
+                width: 100%;
+                overflow: auto;
+                overflow-x: hidden;
+                max-height: 400px;
+
+                .educationTitle {
+                    text-align: left;
+                    padding-left: 200px;
+                    font-size: 3em;
+                    font-weight: bold;
+
+                   
+                }
+                .row{
+                    max-height:300px;
+                    .skill{
+                        .progress-bar-label{
+                            font-size:1.15em;
+                            margin-right:10px;
+                            font-weight: 600;
+                            
+                        }
+                        .progress{
+                            .progress-bar{
+                                height:20px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .about {
+        font-size: 1.2em;
+        padding: 50px 100px;
+        text-align: justify;
+    }
+
+    article {
+        display: flex;
+        flex-direction: row;
+
+        p {
+            font-size: 1.5em;
+        }
+
+        .article-info {
+            padding: 0 20px;
+
+            p {
+                text-align: justify;
+                font-size: 1.2em;
             }
         }
     }
