@@ -122,7 +122,7 @@ body main .main-content .main-content-header {
 body main .main-content .main-content-header .main-subtitle {
   font-size: 2.5em;
   margin-left: -50px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 body main .main-content .main-content-header .main-title {
@@ -148,6 +148,14 @@ body main .main-content .main-content-body .row {
   max-height: 300px;
 }
 
+body main .main-content .main-content-body .row div.col-6:first-of-type {
+  border-right: #8583E1 solid 2px;
+}
+
+body main .main-content .main-content-body .row div.col-6.contact {
+  border-right: none;
+}
+
 body main .main-content .main-content-body .row .skill .progress-bar-label {
   font-size: 1.15em;
   margin-right: 10px;
@@ -156,6 +164,7 @@ body main .main-content .main-content-body .row .skill .progress-bar-label {
 
 body main .main-content .main-content-body .row .skill .progress .progress-bar {
   height: 20px;
+  background: #8583E1;
 }
 
 body .about {

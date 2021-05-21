@@ -104,7 +104,7 @@ body {
                 .main-subtitle {
                     font-size: 2.5em;
                     margin-left: -50px;
-                    margin-top: 100px;
+                    margin-top: 50px;
                 }
 
                 .main-title {
@@ -130,6 +130,12 @@ body {
                 }
                 .row{
                     max-height:300px;
+                    div.col-6:first-of-type{
+                        border-right: $lightcolor solid 2px;
+                    }
+                    div.col-6.contact{
+                        border-right:none;
+                    }
                     .skill{
                         .progress-bar-label{
                             font-size:1.15em;
@@ -140,6 +146,7 @@ body {
                         .progress{
                             .progress-bar{
                                 height:20px;
+                                background:$lightcolor;
                             }
                         }
                     }
