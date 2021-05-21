@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap");
 body {
   max-width: 1440px;
   margin: 0 auto;
@@ -23,6 +24,7 @@ body header .navbar .container .navbar-brand {
   color: #100F3A;
   border: none;
   width: 20%;
+  font-family: 'Arimo', sans-serif;
 }
 
 body header .navbar .container .navbar-nav {
