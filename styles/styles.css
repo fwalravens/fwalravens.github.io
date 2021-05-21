@@ -187,6 +187,10 @@ body article p {
   font-size: 1.5em;
 }
 
+body article .year {
+  color: #8583E1;
+}
+
 body article .article-info {
   padding: 0 20px;
 }
